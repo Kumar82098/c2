@@ -13,13 +13,13 @@ void main()
 	{
 	  if(a[i]==search)
 	  {
-		printf("The %d element found at position %d.",search,i+1);
+		printf("The %d element is present at position %d.",search,i+1);
 	    break;
 	  }
 	}
 
 	if(i!=search)
-	printf("The %d element not found. ",search);
+	printf("The %d element is not found. ",search);
 }
 	
 	
